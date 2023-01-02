@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% block title %}About Us{% endblock %}
+{% block body %}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<h1 class="mt-4">About Us</h1>
+<ol class="breadcrumb mb-4">
+  <li class="breadcrumb-item active">Human FED</li>
+</ol>
+<hr>
+
+<table class="table table-borderless">
+  <thead>
+    <tr>
+      <th>
+        <h5>What is "Human FED" ?</h5>
+      </th>
+      <th>
+        <h5>Job Descprition</h5>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div class="container-sm">
+          <p align="justify">
+            Human FED adalah sebuah sistem yang menggunakan teknologi Artificial Intelligence. Terdapat task
+            environtment yang
+            terdapat dalam Human FED, yaitu Performance Measure, Environtment, Actuators, dan Sensor. Performance
+            Measure
+            adalah hal apa yang dapat diberikan oleh Human FED, dalam hal ini adalah dapat memberikan informasi dengan
+            akurat
+            sesuai dengan data yang telah diinputkan terkait ekspresi seseorang pada setiap frame. Environtment adalah
+            lingkungan
+            dimana Human FED berlaku (face). Actuators adalah output yang dihasilkan dari Human FED (monitor, file csv,
+            grafik).
+            Dan yang terakhir adalah sensor yang merupakan input untuk Human FED (camera, keyboard).
+          </p>
+      </td>
+      <td>
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-secondary">Rina Setiani ( Data Visualization )</li>
+          <li class="list-group-item list-group-item-secondary">Eldiva Tegar Imananda ( Face Expression Programmer )
+          </li>
+          <li class="list-group-item list-group-item-secondary">Wahyu Enggar Wicaksono ( Web Development ) </li>
+          <li class="list-group-item list-group-item-secondary">Rangga Pamungkas ( CRUD Program )</li>
+          <li class="list-group-item list-group-item-secondary">Juan ( CRUD Program ) </li>
+        </ul>
+      </td>
+      </div>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
+<div class="card-group mx-5">
+  <div class="card card-horizontal shadow p-4 mb-5 bg-body">
+    <img src="static/DevProfile/enggar.jpeg" class="card-img" alt="Card image">
+    <div class="card-body">
+      <h5 class="card-title">Wahyu Enggar</h5>
+      <p class="card-text">20.83.0495</p>
+    </div>
+  </div>
+
+  <div class="card card-horizontal shadow p-4 mb-5 bg-body">
+    <img src="static/DevProfile/eldiva.jpeg" class="card-img" alt="Card image">
+    <div class="card-body">
+      <h5 class="card-title">Eldiva Tegar I.</h5>
+      <p class="card-text">20.83.0474</p>
+    </div>
+
+  </div>
+
+  <div class="card card-horizontal shadow p-4 mb-5 bg-body">
+    <img src="static/DevProfile/rina.jpeg" class="card-img" alt="Card image">
+    <div class="card-body">
+      <h5 class="card-title">Rina Setiani</h5>
+      <p class="card-text">20.83.0533</p>
+    </div>
+
+  </div>
+
+  <div class="card card-horizontal shadow p-4 mb-5 bg-body">
+    <img src="static/DevProfile/rangga.jpeg" class="card-img" alt="Card image">
+    <div class="card-body">      
+      <h5 class="card-title">Rangga Tri P.</h5>
+      <p class="card-text">22.66.0118</p>
+    </div>
+  </div>
+
+  <div class="card card-horizontal shadow p-4 mb-5 bg-body">
+    <img src="static/DevProfile/joe.jpeg" class="card-img" alt="Card image">
+    <div class="card-body">
+      <h5 class="card-title">Juan Andriano</h5>
+      <p class="card-text">22.66.0067</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+{% endblock %}

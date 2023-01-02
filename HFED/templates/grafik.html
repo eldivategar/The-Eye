@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}Bar Chart{% endblock %}
+{% block body %}
+<h1 class="mt-4">Bar & Presentase Expression</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Human FED</li>
+</ol>
+<hr>
+<center>
+    <h3>{{ name }}</h3>
+</center><br>
+
+
+<div class="card bg-dark text-white">
+    <img src="{{ url_for('static', filename='dataRecord/visualization/') }}{{visualFile }}" alt="Chart">
+  </div>
+
+{% endblock %}
